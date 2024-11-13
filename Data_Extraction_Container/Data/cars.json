@@ -1,0 +1,63 @@
+[
+    {
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "año": 2020,
+      "color": "Azul"
+    },
+    {
+      "marca": "Honda",
+      "modelo": "Civic",
+      "año": 2019,
+      "color": "Negro"
+    },
+    {
+      "marca": "Ford",
+      "modelo": "Focus",
+      "año": 2021,
+      "color": "Rojo"
+    },
+    {
+      "marca": "Chevrolet",
+      "modelo": "Malibu",
+      "año": 2018,
+      "color": "Blanco"
+    },
+    {
+      "marca": "Nissan",
+      "modelo": "Altima",
+      "año": 2022,
+      "color": "Gris"
+    },
+    {
+      "marca": "Volkswagen",
+      "modelo": "Golf",
+      "año": 2017,
+      "color": "Verde"
+    },
+    {
+      "marca": "BMW",
+      "modelo": "Serie 3",
+      "año": 2020,
+      "color": "Plateado"
+    },
+    {
+      "marca": "Audi",
+      "modelo": "A4",
+      "año": 2021,
+      "color": "Azul"
+    },
+    {
+      "marca": "Kia",
+      "modelo": "Optima",
+      "año": 2019,
+      "color": "Negro"
+    },
+    {
+      "marca": "Hyundai",
+      "modelo": "Elantra",
+      "año": 2022,
+      "color": "Blanco"
+    }
+  ]
+  
