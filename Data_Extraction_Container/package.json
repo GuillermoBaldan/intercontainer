@@ -1,0 +1,19 @@
+{
+  "name": "data_extraction_container",
+  "version": "1.0.0",
+  "description": "container docker test",
+  "main": "saveDataToMongoContainer.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "container",
+    "BBDD",
+    "scripts"
+  ],
+  "author": "Guillermo Baldán López",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^8.8.1"
+  }
+}

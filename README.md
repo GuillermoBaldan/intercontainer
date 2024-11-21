@@ -1,3 +1,6 @@
+# Descripción del proyecto
+Se trata de un proyecto de pruebas para crear un contendor con una BBDD de MongoDB y otro contenedor que lee unos ficheros json que se encuentran en su interior y los guarda en el contendor de la BBDD.
+
 Para lograr que los scripts en un contenedor lean los ficheros `.json` y los guarden en una base de datos que está en otro contenedor, puedes seguir estos pasos:
 
 1. **Conexión entre contenedores**:

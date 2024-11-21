@@ -1,19 +1,17 @@
-FROM node:latest
+# Utilizar una imagen base de Node.js
+FROM node:alpine
 
-# Crear directorio de la aplicación
+# Establecer el directorio de trabajo
 WORKDIR /app
 
-# Copiar el archivo package.json y package-lock.json
+# Copiar package.json y package-lock.json para instalar dependencias
 COPY package*.json ./
 
 # Instalar las dependencias
 RUN npm install
 
-# Copiar el resto de la aplicación
+# Copiar el resto del código de la aplicación
 COPY . .
 
-# Exponer el puerto necesario (si aplica)
-EXPOSE 3000
-
-# Comando para ejecutar el script de extracción de datos
+# Comando para ejecutar el script
 CMD ["node", "SaveToBBDDcontainer/saveDataToMongoContainer.js"]

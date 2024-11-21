@@ -7,7 +7,7 @@ const Car = require('../Models/Car');
 const dataPath = path.join(__dirname, '../Data/cars.json');
 
 // Conexión a la base de datos MongoDB
-mongoose.connect('mongodb://BBDDcontainer:27017/carsDB', {
+mongoose.connect('mongodb://bbdd_container:27017/carsDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
